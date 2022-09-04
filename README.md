@@ -6,9 +6,9 @@ Script to send to spectator a player who is going too fast on taxiways/parkings.
 - Mist script is mandatory, load it first in your mission! https://github.com/mrSkortch/MissionScriptingTools
 - Place zones where you want the groundspeed to be controlled
 ![ExampleZones](zonesExample.JPG)]
-- Add all the zone names in the zone_names list : local zone_names = {'zone1','zone2','zone3','zone4'} -- Put how much you want, can be separate airfields
+- In the groundSpeedLimitbyAsta.lua file, add all the zone names in the zone_names list : local zone_names = {'zone1','zone2','zone3','zone4'} -- Put how much you want, can be separate airfields
 - Load the script
-- Host your mission and enjoy :slight_smile:
+- Host your mission and enjoy 😏
 
 <ins>What I ask in exchange?</ins>
 - Mention a small credit to me in your server/mission :slight_smile: 
