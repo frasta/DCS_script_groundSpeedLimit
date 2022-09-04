@@ -11,7 +11,7 @@ Script to send to spectator a player who is going too fast on taxiways/parkings.
 - Host your mission and enjoy 😏
 
 <ins>What I ask in exchange?</ins>
-- Mention a small credit to me in your server/mission :slight_smile: 
+- Mention a small credit to me in your server/mission 🥰
 
 If any question, find me on my Discord in a public channel (no DM, your question can help other people :slight_smile: ) =>
 [![My Discord](https://cdn.discordapp.com/attachments/559138601573548052/999311782382424084/unknown.png)](https://discord.gg/ZUZdMzQ)
