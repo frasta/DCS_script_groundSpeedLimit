@@ -1,6 +1,6 @@
 -- GroundSpeedLimit script from Asta, if any question, find me here: https://discord.gg/ZUZdMzQ
 local bluePlanes = mist.makeUnitTable({'[blue][plane]'})
-local zone_names = {'zone1','zone2','zone3','zone4'} -- List of the zone are you need to check the groundspeed of players
+local zone_names = {'zone1','zone2','zone3','zone4'} -- List of the zones you need to check the groundspeed of players
 local units = nil
 local unit = nil
 local speedVec = nil
