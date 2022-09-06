@@ -1,6 +1,6 @@
 -- GroundSpeedLimit script from Asta, if any question, find me here: https://discord.gg/ZUZdMzQ
 local bluePlanes = mist.makeUnitTable({'[blue][plane]'})
-local zone_names = {'zone1','zone2','zone3','zone4'} -- List of the zones you need to check the groundspeed of players
+local zone_names = {'zone1','zone2'} -- List of the zones you need to check the groundspeed of players
 local units = nil
 local unit = nil
 local speedVec = nil
@@ -9,7 +9,7 @@ local onlinePlayers = nil
 
 local function speedLimitCheck()
 	timer.scheduleFunction(speedLimitCheck, {}, timer.getTime() + 5) -- Checking every 5 seconds
-	units = mist.getUnitsInZones(bluePlanes, zone_names, 'cylinder')
+	units = mist.getUnitsInZones(bluePlanes, zone_names)
 	for i = 1, #units do 
 		if (Unit.getPlayerName(units[i]) ~= nil and units[i]:getLife() > 0 ) then -- Checking if player and if alive
 			unit = units[i]
